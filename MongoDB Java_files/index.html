@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0112)https://s0.2mdn.net/6254465/1490600063391/160102_Q4_CDI_Synergy_Moor_OnlineBanner_160x600_INTEL_EN-US/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+	<meta name="ad.size" content="width=160,height=600">
+    <script type="text/javascript" src="./TweenMax.min.js.download"></script>
+    <script type="text/javascript" src="./Enabler.js.download"></script>
+    <title>HP Ad 160x600</title>
+    
+    <script>
+        var clickTag = "http://www.google.com";
+    </script>
+<script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script></head>
+
+<body>
+	<div onmousedown="replayDown();" id="replay-btn" style="opacity: 1;">
+        <img class="replay" src="./synergy_replayBtn.png" draggable="false" alt="replay btn">
+	</div>
+	<a href="javascript:void(0);" id="clickTag" draggable="false" onclick="window.open(clickTag)">
+		<div id="hp-ad-link">
+			<div id="hp-ad">
+				<div id="hp-ad-bg-img-overlay" class="hp-ad-overlay"></div>
+				<div id="logo-rect-top" class="logoRect" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+				<div id="logo-rect-bottom" class="logoRect" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+        		<div id="logo-rect-left" class="logoRect" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+				<div id="hp-ad-bg-img" class="hp-ad-bg" style="opacity: 1;"></div>
+				<div id="hp-ad-blank" class="hp-ad-fg" style="opacity: 1;"></div>
+				<div id="hp-ad-fg-composable" class="hp-ad-fg" style="opacity: 0;"></div>
+				<div id="hp-ad-fg-synergy" class="hp-ad-fg" style="opacity: 0; top: 54px;"></div>
+				<div id="hp-ad-fg-softwaredefined" class="hp-ad-fg" style="opacity: 0;"></div>
+				<div id="hp-ad-fg-fluid" class="hp-ad-fg" style="opacity: 0;"></div>
+				<div id="hp-ad-fg-unified" class="hp-ad-fg" style="opacity: 0;"></div>
+				<div id="hp-ad-fg-hp" class="hp-ad-fg" style="opacity: 1;"></div>
+				<div id="hp-ad-fg-accelerate" class="hp-ad-fg" style="opacity: 1;"></div>
+				<div id="hp-ad-fg-button" class="hp-ad-fg" style="opacity: 1;"></div>
+				<div id="hp-ad-fg-intel" class="hp-ad-fg" style="opacity: 1;"></div>
+				<div id="hp-ad-fg-fineprint" class="hp-ad-fg" style="opacity: 1;"></div>
+			</div>
+		</div>
+	</a>
+
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<script src="./main.js.download"></script>
+
+
+
+</body></html>

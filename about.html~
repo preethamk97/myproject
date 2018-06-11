@@ -1,0 +1,128 @@
+<!DOCTYPE html >
+<html >
+<head>
+<title>PRSS BANK | About</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/droid_sans_400-droid_sans_700.font.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="searchform">
+        <form id="formsearch" name="formsearch" method="post" action="#">
+          <span>
+          <input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" value="Search our ste:" type="text" />
+          </span>
+          <input name="button_search" src="images/search.gif" class="button_search" type="image" />
+        </form>
+      </div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="index.html"><span>Home Page</span></a></li>
+          <li><a href="support.html"><span>Support</span></a></li>
+          <li class="active"><a href="about.html"><span>About Us</span></a></li>
+          <li><a href="blog.html"><span>Blog</span></a></li>
+          <li><a href="contact.html"><span>Contact Us</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+      <div class="logo">
+        <h1><a href="index.html"><span>PRSS BANK</span> <small>A tradition of trust</small></a></h1>
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+         <div id="coin-slider"> <a href="#"><img src="images/slide1.jpg" width="960" height="360" alt="" /><span><big>LIVE YOUR DREAMS</big><br />
+           When you do the common things of life an uncommon way, you will command the attention of the World.” – George W. Carver</span></a> <a href="#"><img src="images/slide2.jpg" width="960" height="360" alt="" /><span><big>GET LOAN AT OUR BANT WITH LOW INTERSET</big><br />
+          “To each there comes a time in their lifetime a special moment when they are figuratively tapped on the shoulder and offered the chance to do a very special thing, unique to their own talents. What a tragedy if that moment finds them unprepared or unqualified for that which could have been their finest hour.” -Sir Winston Churchill</span></a> <a href="#"><img src="images/slide3.jpg" width="960" height="360" alt="" /><span><big>WE ARE HERE TO HELP YOU</big><br />
+           “Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.” – Helen Keller</span></a> </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2><span>About the</span> bank</h2>
+          <div class="clr"></div>
+           <p>AT PRSS BANK we understand that all customers are different in unique ways, which is why, regardless of the size of your business or your aspirations, we treat every one as individual and special. This means offering you choices, not only in relation to our products and services but also in the way you interact with us. We understand the changes in your lifestyle, recognize these changes and support you with a high standard of professionalism and service. 
+
+As a premier bank, we have developed comprehensive range of customized products & services suitable for every kind of market, trade or perceived need - Business or Personal. They include, borrowing facilities, deposits, providing optimum returns on surplus funds or helping with overseas transactions. 
+
+We believe in total quality at all levels. We have deployed the most modern information technology to deliver products & services for your benefit with an aim to develop an effective long-term relationship. But most of all, Technology is matched to your expectations of service, for today & for the future.</p>
+        </div>
+        <div class="article">
+          <h2><span>Our</span> Mission</h2>
+          <div class="clr"></div>
+          <p>Our mission is to be a technology savvy, customer centric progressive bank with a national presence, driven by the highest standards of corporate governance and guided by sound ethical values." </p>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="gadget">
+          <h2 class="star"><span>Sidebar</span> Menu</h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TemplateInfo</a></li>
+            <li><a href="#">Style Demo</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Web Templates</a></li>
+          </ul>
+        </div>
+        <div class="gadget">
+          <h2 class="star"><span>DETAILS</span></h2>
+          <div class="clr"></div>
+          <ul class="ex_menu">
+            <li><a href="http://www.google.com/">DreamTemplate</a><br />
+              Over 6,000+ Premium Web Templates</li>
+            <li><a href="http://www.google.com/">TemplateSOLD</a><br />
+              Premium WordPress &amp; Joomla Themes</li>
+            <li><a href="http://www.google.com/">ImHosted.com</a><br />
+              Affordable Web Hosting Provider</li>
+            <li><a href="http://www.google.com/">MegaStockPhotos</a><br />
+              Unlimited Amazing Stock Photos</li>
+            <li><a href="http://www.google.com/">Evrsoft</a><br />
+              Website Builder Software &amp; Tools</li>
+            <li><a href="http://www.google.com/">CSS Hub</a><br />
+              Premium CSS Templates</li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+       
+      <div class="col c3">
+        <h2><span>Contact</span> Us</h2>
+        <p>RNSIT bangalore</p>
+        <p class="contact_info"> <span>Address:</span> Rnsit<br />
+          <span>Telephone:</span> +123-1234-5678<br />
+          <span>FAX:</span> +458-4578<br />
+          <span>Others:</span> +301 - 0125 - 01258<br />
+          <span>E-mail:</span> <a href="#">preethamkaranthk@gmail.com</a> </p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright <a href="#">preethamkaranthk</a>.</p>
+      <p class="rf">Design by preethamkaranthk </p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

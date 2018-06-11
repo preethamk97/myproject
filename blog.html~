@@ -1,0 +1,171 @@
+<!DOCTYPE html >
+<html >
+<head>
+<title>PRSS BANK | Blog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/droid_sans_400-droid_sans_700.font.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="searchform">
+        <form id="formsearch" name="formsearch" method="post" action="#">
+          <span>
+          <input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" value="Search our ste:" type="text" />
+          </span>
+          <input name="button_search" src="images/search.gif" class="button_search" type="image" />
+        </form>
+      </div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="index.html"><span>Home Page</span></a></li>
+          <li><a href="support.html"><span>Support</span></a></li>
+          <li><a href="about.html"><span>About Us</span></a></li>
+          <li class="active"><a href="blog.html"><span>Blog</span></a></li>
+          <li><a href="contact.html"><span>Contact Us</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+      <div class="logo">
+        <h1><a href="index.html"><span>PRSS BANK</span> <small>A tradition of trust</small></a></h1>
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+         <div id="coin-slider"> <a href="#"><img src="images/slide1.jpg" width="960" height="360" alt="" /><span><big>LIVE YOUR DREAMS</big><br />
+           When you do the common things of life an uncommon way, you will command the attention of the World.” – George W. Carver</span></a> <a href="#"><img src="images/slide2.jpg" width="960" height="360" alt="" /><span><big>GET LOAN AT OUR BANT WITH LOW INTERSET</big><br />
+          “To each there comes a time in their lifetime a special moment when they are figuratively tapped on the shoulder and offered the chance to do a very special thing, unique to their own talents. What a tragedy if that moment finds them unprepared or unqualified for that which could have been their finest hour.” -Sir Winston Churchill</span></a> <a href="#"><img src="images/slide3.jpg" width="960" height="360" alt="" /><span><big>WE ARE HERE TO HELP YOU</big><br />
+           “Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.” – Helen Keller</span></a> </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2><span>A Blog</span> Entry</h2>
+          <div class="clr"></div>
+          <p>Posted by <a href="#">Admin</a> <span>&nbsp;&bull;&nbsp;</span> Filed under  <a href="#">internet</a></p>
+          <p>A new commitment to household surveys at the World Bank 
+
+Household surveys are crucial for monitoring progress towards the Sustainable Development Goals and the Bank’s twin goals of ending global extreme poverty by 2030 and boosting shared prosperity. However, we still face significant challenges around the world in terms of data availability - among the 155 countries for which the World Bank monitors poverty data, half lacked sufficient data for measuring poverty between 2002 and 2011. In response, the World Bank has committed itself to reversing this dismal state of affairs: in October 2015, World Bank President Jim Yong Kim announced that the Bank would support the 78 poorest countries in conducting an LSMS-type household survey every 3 years.</p>
+         <p>Tagged: <a href="#">orci</a>, <a href="#">lectus</a>, <a href="#">varius</a>, <a href="#">turpis</a></p>
+          <p><a href="#"><strong>Comments (3)</strong></a> <span>&nbsp;&bull;&nbsp;</span> May 27, 2010 <span>&nbsp;&bull;&nbsp;</span> <a href="#"><strong>Edit</strong></a></p>
+        </div>
+        <div class="article">
+          <h2><span>3</span> Responses</h2>
+          <div class="clr"></div>
+          <div class="comment"> <a href="#"><img src="images/userpic.gif" width="40" height="40" alt="" class="userpic" /></a>
+            <p><a href="#">admin</a> Says:<br />
+              April 20th, 2009 at 2:17 pm</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.</p>
+          </div>
+          <div class="comment"> <a href="#"><img src="images/userpic.gif" width="40" height="40" alt="" class="userpic" /></a>
+            <p><a href="#">Admin</a> Says:<br />
+              April 20th, 2009 at 3:21 pm</p>
+              <p>  </p>
+          </div>
+          <div class="comment"> <a href="#"><img src="images/userpic.gif" width="40" height="40" alt="" class="userpic" /></a>
+            <p><a href="#">admin</a> Says:<br />
+              April 20th, 2009 at 2:17 pm</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.</p>
+          </div>
+        </div>
+        <div class="article">
+          <h2><span>Leave a</span> Reply</h2>
+          <div class="clr"></div>
+          <form action="#" method="post" id="leavereply">
+            <ol>
+              <li>
+                <label for="name">Name (required)</label>
+                <input id="name" name="name" class="text" />
+              </li>
+              <li>
+                <label for="email">Email Address (required)</label>
+                <input id="email" name="email" class="text" />
+              </li>
+              <li>
+                <label for="website">Website</label>
+                <input id="website" name="website" class="text" />
+              </li>
+              <li>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="8" cols="50"></textarea>
+              </li>
+              <li>
+                <input type="image" name="imageField" id="imageField" src="images/submit.gif" class="send" />
+                <div class="clr"></div>
+              </li>
+            </ol>
+          </form>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="gadget">
+          <h2 class="star"><span>Sidebar</span> Menu</h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TemplateInfo</a></li>
+            <li><a href="#">Style Demo</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Web Templates</a></li>
+          </ul>
+        </div>
+        <div class="gadget">
+          <h2 class="star"><span>Sponsors</span></h2>
+          <div class="clr"></div>
+          <ul class="ex_menu">
+            <li><a href="http://www.google.com/">DreamTemplate</a><br />
+              Over 6,000+ Premium Web Templates</li>
+            <li><a href="http://www.google.com/">TemplateSOLD</a><br />
+              Premium WordPress &amp; Joomla Themes</li>
+            <li><a href="http://www.google.com/">ImHosted.com</a><br />
+              Affordable Web Hosting Provider</li>
+            <li><a href="http://www.google.com/">MegaStockPhotos</a><br />
+              Unlimited Amazing Stock Photos</li>
+            <li><a href="http://www.google.com/">Evrsoft</a><br />
+              Website Builder Software &amp; Tools</li>
+            <li><a href="http://www.google.com/">CSS Hub</a><br />
+              Premium CSS Templates</li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+       
+      <div class="col c3">
+        <h2><span>Contact</span> Us</h2>
+        <p>contact us</p>
+        <p class="contact_info"> <span>Address:</span> RNSIT<br />
+          <span>Telephone:</span> 9740978236<br />
+          <span>FAX:</span> +458-4578<br />
+          <span>Others:</span> +301 - 0125 - 01258<br />
+          <span>E-mail:</span> <a href="#">preethamkaranhk@gmail.com</a> </p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright <a href="#">preethamk</a>.</p>
+      <p class="rf">Design by preethamk </p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

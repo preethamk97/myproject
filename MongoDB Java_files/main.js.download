@@ -1,0 +1,64 @@
+// If true, start function. If false, listen for INIT.
+window.onload = function() {
+	if (Enabler.isInitialized()) {
+		enablerInitHandler();
+	} else {
+		Enabler.addEventListener(studio.events.StudioEvent.INIT, enablerInitHandler);
+	}
+}
+
+function bgExitHandler(e) {
+	Enabler.exit('Background Exit');
+}
+
+document.getElementById('hp-ad-link').addEventListener('click', bgExitHandler, false);
+
+function replayDown() {
+	location.reload();
+}
+
+function enablerInitHandler() {
+    setTimeout(function() {
+        var tl = new TimelineMax();
+        tl
+			.set("#logo-rect-top", {scaleX: 0, opacity: 1})
+			.set("#logo-rect-bottom", {scaleX: 0, opacity: 1})
+			.set("#logo-rect-left", {scaleY: 0, opacity: 1})
+			
+			.to("#hp-ad-blank", 1, {opacity: 0})
+		
+			.to("#logo-rect-top", 3, {scaleX: 1}, 5)
+			.to("#logo-rect-bottom", 3, {scaleX: 1}, 6)
+			.to("#logo-rect-left", 2, {scaleY: 1}, 9)
+		
+			.to("#hp-ad-bg-img", 0.5, {opacity: 1})
+
+            .to("#hp-ad-fg-composable", 0.5, {opacity: 1}, 0.5)
+            .to("#hp-ad-fg-composable", 0.5, {opacity: 0}, 5)
+
+			.to("#hp-ad-fg-synergy", 0.5, {opacity: 1}, 2.5)
+            .to("#hp-ad-fg-synergy", 1, {top: "54px"}, 5)
+            .to("#hp-ad-fg-synergy", 0.5, {opacity: 0}, 12)
+
+            .to("#hp-ad-fg-fluid", 0.5, {opacity: 1}, 8)
+            .to("#hp-ad-fg-fluid", 0.5, {opacity: 0}, 12)
+
+            .to("#hp-ad-fg-softwaredefined", 0.5, {opacity: 1}, 7)
+            .to("#hp-ad-fg-softwaredefined", 0.5, {opacity: 0}, 12)
+
+            .to("#hp-ad-fg-unified", 0.5, {opacity: 1}, 9)
+            .to("#hp-ad-fg-unified", 0.5, {opacity: 0}, 12)
+
+            // done - fade to white
+            .to("#hp-ad-blank", 0.5, {opacity: 1}, 12)
+
+            .to("#hp-ad-fg-accelerate", 0.5, {opacity: 1}, 13)
+            .to("#hp-ad-fg-intel", 0.5, {opacity: 1}, 14.5)
+            .to("#hp-ad-fg-hp", 0.5, {opacity: 1}, 14.5)
+            .to("#hp-ad-fg-fineprint", 0.5, {opacity: 1}, 14.5)
+            .to("#hp-ad-fg-button", 0.5, {opacity: 1}, 14.5)
+		
+			// replay button
+			.to("#replay-btn", 0.5, {opacity: 1}, 14.5)
+    }, 0);
+}
